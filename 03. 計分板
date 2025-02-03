@@ -1,1 +1,10 @@
-
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    cout<<"=== Scoreboard ==="<<endl;
+    cout<<"Blue Team: " << a<<endl;
+    cout<<"Red Team: " <<b<<endl;
+    cout<<"==================";
+}
