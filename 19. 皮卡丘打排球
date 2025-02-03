@@ -1,1 +1,19 @@
-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int a,b,c,d;
+	cin>>a>>b>>c>>d;
+	if(a+b>100||d+c>100){
+		cout<<"QwQ"<<endl;
+		}else{cout<<"pikapika"<<endl;
+		}
+	if(a+c>100||d+b>100){
+		cout<<"QwQ"<<endl;
+		}else{cout<<"pikapika"<<endl;
+		}
+	if(a+d>100||b+c>100){
+		cout<<"QwQ"<<endl;
+		}else{cout<<"pikapika"<<endl;
+		}
+	
+}
