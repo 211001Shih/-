@@ -1,1 +1,18 @@
-
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int a,b,aa,f;
+    
+    while(cin>>a>>b) {
+        if (a!=1) {
+            aa=1; 
+            b=b/a; 
+		    f=aa+b;  
+        cout<<log(f)/log(2)<<endl;
+        
+        }else if (a==1){
+		f=a+b;
+		cout <<log(f)/log(2)<<endl;
+		} 
+    }
+}
