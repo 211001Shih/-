@@ -1,1 +1,35 @@
-
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,b,e=0,x=0,sum=0;
+    cin>>n>>b;
+    int a[n];
+    
+   	for (int i=0;i<n;i++){
+        cin>>a[i];
+    }
+ 	x=a[0];
+ 	e=1;
+    for(int i=0;i<n;i++) {
+        if (e==1) {
+        	if((x+b)<=a[i]){
+        	    e=0;
+        		sum+=a[i];
+        		x=a[i];
+			}
+         
+		}else if(have==0){
+			if(a[i]<=(x-b)){
+				e=1;
+				sum-=a[i] ;
+				x=a[i];
+			}	
+		}
+	}
+	
+	if(e==0){
+	cout<<sum-a[0];
+	}else{
+	cout<<sum+x-a[0];		
+	}
+}
